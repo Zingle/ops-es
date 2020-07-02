@@ -1,0 +1,6 @@
+[Unit]
+Wants=es@ops\x2des.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/bash -c "echo provision ops-es Elasticsearch server"
